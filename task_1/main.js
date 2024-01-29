@@ -1,4 +1,3 @@
-
 let tempa = 20;
 
 if (tempa >= 30) {
