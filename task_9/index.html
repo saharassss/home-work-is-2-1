@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title">Рассчет стоимомти строительных материалов</h1>
+        <div class="form" id="form">
+            <label for="bricks">Количество кирпичей:</label>
+            <input type="text" id=bricks>
+            <br><br>
+            <label for="bricks">Цена кирпичей:</label>
+            <input type="text" id=bricks_pricing>
+            <br><br>
+            <label for="cement">Количество цемента:</label>
+            <input type="text" id=cement>
+            <br><br>
+            <label for="cement">Цена цемента:</label>
+            <input type="text" id=cement_pricing>
+            <br><br>
+            <label for="woodboards">Количество досок:</label>
+            <input type="text" id=woodboards>
+            <br><br>
+            <label for="wood boards">Цена досок:</label>
+            <input type="text" id=woodboards_pricing>
+            <br><br>
+            <br><br>
+            <button onclick="calculate()" id="saveBtn">Рассчитать стоимость</button>
+        </div>
+        <br>
+        <div id="result"></div>
+    </div>
+</body>
+
+</html>
